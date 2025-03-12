@@ -1,0 +1,35 @@
+/* デスクトップ用 */
+@media screen and (min-width: 960px) {
+  .Upper-Image {
+  }
+}
+/* モバイル用 */
+@media screen and (max-width: 959px) {
+  .Upper-Image {
+  }
+}
+
+.upper {
+  background-image: url(../image/UpperImage.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+.upper .title {
+  color: #3e2723;
+}
+.upper h1 {
+}
+.upper h2 {
+}
+.upper p {
+  /*両端に線追加*/
+}
+.heading::before,
+.heading::after {
+  content: "";
+  height: 5px;
+  width: 60px;
+}
