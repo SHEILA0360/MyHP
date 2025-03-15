@@ -20,12 +20,50 @@
   <body>
     <!-- Bootstrapで中央寄せ(Flexbox)化 -->
     <section
+      id="home"
       class="upper d-flex justify-content-center align-items-center text-center"
     >
       <div class="title">
         <h2 class="fw-bolder">Hello World!!</h2>
         <h1 class="display-1 fw-bold">MY NAME IS HARADA.</h1>
         <p class="fs-3 fw-semibold">My engineer's portfolio</p>
+      </div>
+    </section>
+
+    <!-- ナビゲーションバー -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="#About Me">About Me</a>
+          <a class="nav-item nav-link" href="#SKILL">SKILL</a>
+          <a class="nav-item nav-link disabled" href="#PORTFOLIO">PORTFOLIO</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Me-->
+    <section id="About Me" class="About Section">
+      <div class="About Me">
+        <h1 class="name">HARADA DAIKI</h1>
+        <h2>Profile</h2>
+        <p>
+          1999年生まれ 神奈川県出身<br />相洋高等学校卒業<br />東京工科大学中退<br />中退後はAmazonのオペレーターや半導体エンジニアなどを経験<br />現在は夢だったソフトウェアエンジニアになるために独学でプログラミング等を勉強中
+        </p>
       </div>
     </section>
   </body>

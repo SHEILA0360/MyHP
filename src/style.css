@@ -20,16 +20,19 @@
 .upper .title {
   color: #3e2723;
 }
-.upper h1 {
+.title p {
+  align-items: center; /* 縦方向中央揃え */
+  justify-content: center; /* 横方向中央揃え */
+  display: flex; /* 横並び */
+  gap: 20px; /* 文字と線の間隔 */
+  color: #3e2723; /* 文字色 */
+  margin: 10px 0; /* 上下の余白 */
 }
-.upper h2 {
-}
-.upper p {
-  /*両端に線追加*/
-}
-.heading::before,
-.heading::after {
+
+.title p::before,
+.title p::after {
   content: "";
-  height: 5px;
-  width: 60px;
+  flex: 1; /* 横線を左右に自動で広げる */
+  height: 3px; /* 線の太さ */
+  background: #3e2723; /* 線の色 */
 }
