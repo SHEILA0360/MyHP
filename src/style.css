@@ -1,15 +1,21 @@
 /* デスクトップ用 */
 @media screen and (min-width: 960px) {
-  .Upper-Image {
+  .hero p::before,
+  .hero p::after {
+    width: 20%;
   }
 }
+
 /* モバイル用 */
 @media screen and (max-width: 959px) {
-  .Upper-Image {
+  .hero p::before,
+  .hero p::after {
+    width: 50%;
   }
 }
 
 .hero {
+  padding: 250px 30px 250px;
   background-image: url(../image/UpperImage.jpg);
   background-size: cover;
   background-position: center center;
@@ -17,15 +23,6 @@
   height: 700px;
   object-fit: cover;
   color: #3e2723;
-
-  position: relative;
-}
-
-.hero .container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .hero p::before,
@@ -33,7 +30,32 @@
   content: "";
   background-color: #000;
   height: 3px;
-  width: 200px;
+  /* width: 20%; */
   display: inline-block;
   vertical-align: middle;
+}
+
+/* About Me */
+
+.About-Me {
+  background-color: #233e2e;
+  position: relative;
+}
+.About-Me .title {
+  position: relative;
+  top: -45px;
+  text-align: center;
+  color: #696969;
+  font-size: 3.8rem;
+}
+.bg-text-about {
+  position: absolute;
+  top: 45%;
+  left: 3%;
+}
+.background-about {
+  color: #a9a9a9;
+  opacity: 0.1;
+  font-size: 5rem;
+  font-weight: bold;
 }
