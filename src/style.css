@@ -47,27 +47,69 @@
 }
 #About-Me .title {
   position: relative;
-  top: -60px;
+  /* top: -45px; */
+  padding-top: 5%;
   color: #696969;
   text-align: center;
 }
 #name-container {
   background-color: #111111;
   color: #fff;
-  width: 45%;
+  width: 55%;
+  padding: 2%;
   letter-spacing: 1px;
 }
 .name-english {
-  margin-left: 40%;
+  margin-left: 60%;
   font-size: 2rem;
   letter-spacing: 5px;
 }
 .name-japanese {
-  margin-left: 40%;
+  margin-left: 60%;
   margin-top: 1%;
   font-size: 0.9rem;
 }
 .information {
   color: #fff;
   position: absolute;
+  top: -5%;
+  left: 53%;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  line-height: 22;
+}
+.profile {
+  color: #fff;
+  margin-left: 7%;
+}
+.cat-img {
+  position: absolute;
+  top: 26%;
+  right: 82%;
+  width: 100px;
+  height: 100px;
+}
+.profile-title {
+  margin-top: 2%;
+}
+.profile-content {
+  margin-top: 2%;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+.profile-img {
+  position: absolute;
+  top: 39%;
+  right: 12%;
+  width: 540px;
+  height: 350px;
+}
+.sns-link {
+  font-size: 30px;
+  margin-left: 10%;
+}
+.link-title {
+  color: #fff;
+  margin-top: 2%;
+  margin-left: 7%;
 }
