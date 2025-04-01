@@ -79,6 +79,7 @@
   right: 12%;
   width: 540px;
   height: 350px; */
+  /*flex-basisが適用されないのを直すところからやる*/
 }
 .sns-link {
   font-size: 30px;
